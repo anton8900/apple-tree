@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3A37D9CF1BAC603C00DDC93A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37D9CE1BAC603C00DDC93A /* main.m */; };
+		3A37D9D81BAC612F00DDC93A /* apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37D9D71BAC612F00DDC93A /* apple.m */; };
+		3A37D9DB1BAC6A9E00DDC93A /* tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37D9DA1BAC6A9E00DDC93A /* tree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3A37D9CB1BAC603C00DDC93A /* apple tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "apple tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A37D9CE1BAC603C00DDC93A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A37D9D61BAC612F00DDC93A /* apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apple.h; sourceTree = "<group>"; };
+		3A37D9D71BAC612F00DDC93A /* apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = apple.m; sourceTree = "<group>"; };
+		3A37D9D91BAC6A9E00DDC93A /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		3A37D9DA1BAC6A9E00DDC93A /* tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				3A37D9CE1BAC603C00DDC93A /* main.m */,
+				3A37D9D61BAC612F00DDC93A /* apple.h */,
+				3A37D9D71BAC612F00DDC93A /* apple.m */,
+				3A37D9D91BAC6A9E00DDC93A /* tree.h */,
+				3A37D9DA1BAC6A9E00DDC93A /* tree.m */,
 			);
 			path = "apple tree";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A37D9D81BAC612F00DDC93A /* apple.m in Sources */,
 				3A37D9CF1BAC603C00DDC93A /* main.m in Sources */,
+				3A37D9DB1BAC6A9E00DDC93A /* tree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
